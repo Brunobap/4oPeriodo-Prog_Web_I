@@ -1,0 +1,23 @@
+Ação:
+    - Django Livre
+    - O Resagte do Soldado Ryan
+
+Aventura:
+    - Tron: O Legado
+
+Comédia:
+    - As Branquelas
+    - Curtindo a vida adoidado
+
+Suspense:
+    - Os Outros
+
+Drama:
+    - Marley e Eu
+    - Bom-dia Vietnã 
+
+Romance:
+    - Amores Eletrônicos
+
+Terror:
+    - O Exorcista

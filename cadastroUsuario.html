@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <link rel="stylesheet" href="estilo.css">
+        <title>Nova Conta - LocOn</title>
+        <meta name="author" content="Bruno Ribeiro Batista">
+        <meta charset="UTF-8">
+    </head>
+    <body style="background-image: url(imgs/bannerMoviePoster.jpg); background-size: 100%;">
+        <br><br><br><hr>
+        <div class="caixa">
+            <img alt="logoLocOn.png" src="imgs/logoCompAzul.png" height="50px" style="padding: 25px;">
+            <form action="cadastroUsuario.html" style="padding: 25px;">
+                Nome: <input type="text" id="inpNome"><br><br>
+                Endereço: <input type="text" id="inpEnd"><br><br>
+                E-mail: <input type="email" id="inpEmail"><br><br>
+                Cidade: <input type="text" id="inpCid"><br><br>
+                Estado: <select name="estado">
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select><br><br>
+
+                Sexo: <input type="radio" id="rdbMasc" value="Masc" name="sexo">Masculino
+                <input type="radio" id="rdbFemi" value="Femi" name="sexo">Feminino<br><br>
+
+                Quais gêneros de filme você mais gosta:<br>
+                <input type="checkbox" value="Ação" id="ckbAcao" name="filmes">
+                <label for="chkAcao">Ação</label><br>
+                <input type="checkbox" value="Aventura" id="ckbAventura" name="filmes">
+                <label for="chkAventura">Aventura</label><br>
+                <input type="checkbox" value="Comédia" id="ckbComedia" name="filmes">
+                <label for="chkComedia">Comédia</label><br>
+                <input type="checkbox" value="Suspense" id="ckbSuspense" name="filmes">
+                <label for="chkSuspense">Suspense</label><br>
+                <input type="checkbox" value="Drama" id="ckbDrama" name="filmes">
+                <label for="chkDrama">Drama</label><br>
+                <input type="checkbox" value="Romance" id="ckbRomance" name="filmes">
+                <label for="chkRomance">Romance</label><br>
+                <input type="checkbox" value="Terror" id="ckbTerror" name="filmes">
+                <label for="chkTerror">Terror</label><br><br>
+
+                Usuário: <input type="text" id="inpUsu"><br><br>
+                Senha: <input type="password" id="inpPwd"><br><br>
+                <hr>
+                <a class="btn" href="loginUsuario.html">Cancelar</a> 
+                <input class="btn" type="reset" value="Limpar"> 
+                <a class="btn" href="index.html">Enviar</a>
+                <p>Já possui uma conta? <a href="loginUsuario.html">Entre por aqui.</a></p>
+            </form>
+        </div>
+        <hr><br><br><br>
+    </body>
+</html>
